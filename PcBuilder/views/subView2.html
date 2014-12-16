@@ -1,0 +1,24 @@
+﻿
+<div class="ui-widget" data-ng-controller="ControlScopeController">
+    <h1>view 1</h1>
+
+    name:
+    <br />
+    <input type="text" data-ng-model="name" />
+
+    <ul>
+        <li data-ng-repeat="prod in products | filter:name | orderBy:'name'"> {{prod.name}} - {{prod.vendor}}</li>
+
+    </ul>
+    <br />
+    Motherboard type: <br />
+    <input type="text" data-ng-model="addMotherboard.name" />
+    <br />
+    Vendor:<br />
+    <input type="text" data-ng-model="addVendor.name" />
+    <br />
+    <button data-ng-click="addComponent()">Voeg onderdeel toe</button>
+    <br />
+    <a href="/view2">view 2</a>
+
+</div>

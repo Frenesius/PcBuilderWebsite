@@ -1,0 +1,201 @@
+﻿@charset "utf-8";
+/* Global Styles */
+body {
+	margin:50px 0px; padding:0px;
+	margin-top:20px;
+}
+
+/* Logo placeholder*/
+.logo {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 139px;
+	text-align: center;
+	color: rgba(255,255,255,1.00);
+	background-color: rgba(20,40,190,1.00);
+	margin-bottom:30px;
+	clear:both;
+}
+
+#banner {
+	clear: both;
+	background-color: rgba(246,246,246,1.00);
+	padding-left: 115px;
+	padding-top: 65px;
+	padding-bottom: 45px;
+	height:60px;
+	width:900px;
+	margin-top:20px;
+	background-image:url(../images/banner.png)
+}
+/* Main content of the site */
+/* Whole page content */
+.mainWrapper {
+margin:0 auto;
+padding-left:20%;
+align-content:center;
+
+}
+.partpage   {
+	width: 200px;
+    height: 180px;
+	border-spacing:30px;	
+	margin-top:30px;
+	float:left;
+	margin-right:10px;
+	
+}
+
+.ui-widget {
+
+	float:left;
+	clear:both;
+	margin-top:20px;
+	margin-left:150px;
+}
+/* Media query for tablets */
+@media screen and (max-width:700px) {
+
+/*menubar in sidebar */
+#content .sidebar #menubar {
+	position: relative;
+	left: -7%;
+	overflow: hidden;
+	width: 95%;
+	padding-top: 0px;
+}
+/* offer banners content */
+#mainWrapper #banner p {
+	font-size: small;
+}
+/* main content region of page */
+#mainWrapper #content .mainContent {
+	overflow: hidden;
+	width: 95%;
+	margin-top: 40px;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	float: none;
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	left: 0%;
+	padding-bottom: 19px;
+}
+/* Container for each footer divisions */
+#mainWrapper footer div {
+	width: 44%;
+	text-align: justify;
+	font-size: 15px;
+}
+/* Links in footer */
+.footerlinks p a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: inline;
+	padding-right: 35px;
+}
+/* Footer region */
+#mainWrapper footer {
+	padding-left: 16px;
+	overflow: hidden;
+}
+/* Links in header */
+header #headerLinks a {
+	padding-left: 0px;
+	padding-right: 30px;
+}
+/* Offer- Text banner */
+#mainWrapper #banner {
+	padding-left: 22%;
+}
+/* Paragraphs in footer */
+footer .footerlinks p {
+	display: inline;
+}
+}
+
+/*media query for small screen devices */
+@media screen and (max-width:480px) {
+/*Container for links in header */
+#mainWrapper header #headerLinks {
+	width: 100%;
+	text-align: center;
+	background-color: rgba(190,190,190,1.00);
+	padding-bottom: 21px;
+}
+/* Logo placeholder*/
+#mainWrapper header #logo {
+	width: 100%;
+	text-align: center;
+}
+/* Links in header */
+header #headerLinks a {
+	text-align: center;
+	padding-right: 15px;
+	padding-left: 0px;
+}
+/*Offer - Text Banner */
+#mainWrapper #banner {
+	padding-left: 0px;
+	text-align: center;
+	margin:0 auto;
+}
+/* Menubar in sidebar */
+#content {
+	position: relative;
+	left: -8%;
+	text-align: center;
+}
+/*Menu headings in sidebar */
+#menubar .menu h1 {
+	width: 100%;
+	display: block;
+}
+/* Each product in catalog view */
+.mainContent .productRow .productInfo {
+	width: 100%;
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	left: -2%;
+}
+#mainWrapper footer div {
+	width: 100%;
+	margin-left: -16px;
+	text-align: justify;
+	padding-bottom: 16px;
+	overflow: auto;
+}
+/* Unordered list for menu elements */
+.menu ul {
+	position: relative;
+	padding-left: 24%;
+}
+/* Container for links in footer */
+#mainWrapper footer .footerlinks {
+	padding-left: 8%;
+}
+
+
+/* Main content which excludes the sidebar */
+#mainwrapper #content .mainContent {
+	margin-top: -81px;
+	text-align: center;
+	width: 95%;
+	padding-left: 0px;
+}
+
+.SearchProcessor {
+
+width:auto;
+align:
+
+}
+
+
